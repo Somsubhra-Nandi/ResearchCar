@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (diff_drive_robot) JobQueued: {'identifier': 'diff_drive_robot', 'dependencies': OrderedDict()}
+[0.000406] (diff_drive_robot) JobStarted: {'identifier': 'diff_drive_robot'}
+[0.029476] (diff_drive_robot) JobProgress: {'identifier': 'diff_drive_robot', 'progress': 'cmake'}
+[0.031696] (diff_drive_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/somsubhra/ros2_ws/src/diff_drive_robot', '-DCMAKE_INSTALL_PREFIX=/home/somsubhra/ros2_ws/install/diff_drive_robot'], 'cwd': '/home/somsubhra/ros2_ws/build/diff_drive_robot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'somsubhra', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/somsubhra', 'OLDPWD': '/home/somsubhra/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/somsubhra/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'somsubhra', 'NAME': 'DESKTOP-Q013D0A', 'WSL_INTEROP': '/run/WSL/9726_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/app/SOMSUBHRA/product/21c/dbhomeXE/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ffmpeg/bin:/mnt/c/ffmpeg/bin:/mnt/c/maven/bin:/Docker/host/bin:/mnt/c/Program Files/Tesseract-OCR/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ffmpeg/bin:/mnt/c/ffmpeg/bin:/mnt/c/maven/bin:/Docker/host/bin:/mnt/c/Program Files/Tesseract-OCR/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SOMSUBHRA/AppData/Roaming/npm:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Ollama:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh/:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/c/Users/SOMSUBHRA/Downloads/ffmpeg-8.0.1-essentials_build/ffmpeg-8.0.1-essentials_build/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/MetaCall:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Antigravity/bin:/snap/bin', 'WT_SESSION': '79e678c8-6927-4598-adf3-0a53feb57f0c', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/somsubhra/ros2_ws/build/diff_drive_robot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.098868] (-) TimerEvent: {}
+[0.199499] (-) TimerEvent: {}
+[0.300249] (-) TimerEvent: {}
+[0.400799] (-) TimerEvent: {}
+[0.501501] (-) TimerEvent: {}
+[0.602078] (-) TimerEvent: {}
+[0.702616] (-) TimerEvent: {}
+[0.803095] (-) TimerEvent: {}
+[0.903580] (-) TimerEvent: {}
+[1.004264] (-) TimerEvent: {}
+[1.104917] (-) TimerEvent: {}
+[1.205424] (-) TimerEvent: {}
+[1.305928] (-) TimerEvent: {}
+[1.406547] (-) TimerEvent: {}
+[1.466506] (diff_drive_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.506683] (-) TimerEvent: {}
+[1.607306] (-) TimerEvent: {}
+[1.707860] (-) TimerEvent: {}
+[1.808550] (-) TimerEvent: {}
+[1.909102] (-) TimerEvent: {}
+[2.009638] (-) TimerEvent: {}
+[2.110237] (-) TimerEvent: {}
+[2.210984] (-) TimerEvent: {}
+[2.311399] (-) TimerEvent: {}
+[2.412104] (-) TimerEvent: {}
+[2.512693] (-) TimerEvent: {}
+[2.613267] (-) TimerEvent: {}
+[2.713846] (-) TimerEvent: {}
+[2.814454] (-) TimerEvent: {}
+[2.914930] (-) TimerEvent: {}
+[3.015445] (-) TimerEvent: {}
+[3.116265] (-) TimerEvent: {}
+[3.217096] (-) TimerEvent: {}
+[3.317683] (-) TimerEvent: {}
+[3.418289] (-) TimerEvent: {}
+[3.519002] (-) TimerEvent: {}
+[3.619667] (-) TimerEvent: {}
+[3.720298] (-) TimerEvent: {}
+[3.821056] (-) TimerEvent: {}
+[3.921546] (-) TimerEvent: {}
+[4.022246] (-) TimerEvent: {}
+[4.123080] (-) TimerEvent: {}
+[4.223702] (-) TimerEvent: {}
+[4.324282] (-) TimerEvent: {}
+[4.424801] (-) TimerEvent: {}
+[4.525396] (-) TimerEvent: {}
+[4.625999] (-) TimerEvent: {}
+[4.726766] (-) TimerEvent: {}
+[4.827265] (-) TimerEvent: {}
+[4.928034] (-) TimerEvent: {}
+[5.028772] (-) TimerEvent: {}
+[5.129406] (-) TimerEvent: {}
+[5.230048] (-) TimerEvent: {}
+[5.330607] (-) TimerEvent: {}
+[5.431297] (-) TimerEvent: {}
+[5.532089] (-) TimerEvent: {}
+[5.632741] (-) TimerEvent: {}
+[5.733368] (-) TimerEvent: {}
+[5.833813] (-) TimerEvent: {}
+[5.934480] (-) TimerEvent: {}
+[5.958621] (diff_drive_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.034726] (-) TimerEvent: {}
+[6.135413] (-) TimerEvent: {}
+[6.235999] (-) TimerEvent: {}
+[6.336777] (-) TimerEvent: {}
+[6.437288] (-) TimerEvent: {}
+[6.537768] (-) TimerEvent: {}
+[6.638268] (-) TimerEvent: {}
+[6.738732] (-) TimerEvent: {}
+[6.839409] (-) TimerEvent: {}
+[6.939991] (-) TimerEvent: {}
+[7.040641] (-) TimerEvent: {}
+[7.141233] (-) TimerEvent: {}
+[7.241894] (-) TimerEvent: {}
+[7.342862] (-) TimerEvent: {}
+[7.443803] (-) TimerEvent: {}
+[7.544681] (-) TimerEvent: {}
+[7.645219] (-) TimerEvent: {}
+[7.745705] (-) TimerEvent: {}
+[7.846154] (-) TimerEvent: {}
+[7.946855] (-) TimerEvent: {}
+[8.047561] (-) TimerEvent: {}
+[8.148227] (-) TimerEvent: {}
+[8.248780] (-) TimerEvent: {}
+[8.349260] (-) TimerEvent: {}
+[8.449726] (-) TimerEvent: {}
+[8.550241] (-) TimerEvent: {}
+[8.650911] (-) TimerEvent: {}
+[8.751546] (-) TimerEvent: {}
+[8.852079] (-) TimerEvent: {}
+[8.952779] (-) TimerEvent: {}
+[9.053463] (-) TimerEvent: {}
+[9.154018] (-) TimerEvent: {}
+[9.254715] (-) TimerEvent: {}
+[9.355349] (-) TimerEvent: {}
+[9.455921] (-) TimerEvent: {}
+[9.556545] (-) TimerEvent: {}
+[9.657071] (-) TimerEvent: {}
+[9.757589] (-) TimerEvent: {}
+[9.858032] (-) TimerEvent: {}
+[9.958539] (-) TimerEvent: {}
+[10.059041] (-) TimerEvent: {}
+[10.159615] (-) TimerEvent: {}
+[10.260224] (-) TimerEvent: {}
+[10.296761] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.360387] (-) TimerEvent: {}
+[10.460877] (-) TimerEvent: {}
+[10.561645] (-) TimerEvent: {}
+[10.662273] (-) TimerEvent: {}
+[10.762924] (-) TimerEvent: {}
+[10.863562] (-) TimerEvent: {}
+[10.964242] (-) TimerEvent: {}
+[11.064783] (-) TimerEvent: {}
+[11.165691] (-) TimerEvent: {}
+[11.266071] (-) TimerEvent: {}
+[11.366588] (-) TimerEvent: {}
+[11.467234] (-) TimerEvent: {}
+[11.567895] (-) TimerEvent: {}
+[11.668635] (-) TimerEvent: {}
+[11.769123] (-) TimerEvent: {}
+[11.869576] (-) TimerEvent: {}
+[11.970079] (-) TimerEvent: {}
+[12.070765] (-) TimerEvent: {}
+[12.171467] (-) TimerEvent: {}
+[12.272277] (-) TimerEvent: {}
+[12.372806] (-) TimerEvent: {}
+[12.473457] (-) TimerEvent: {}
+[12.574104] (-) TimerEvent: {}
+[12.621615] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.635731] (diff_drive_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.637219] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.638410] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.674280] (-) TimerEvent: {}
+[12.774774] (-) TimerEvent: {}
+[12.875616] (-) TimerEvent: {}
+[12.976320] (-) TimerEvent: {}
+[13.076846] (-) TimerEvent: {}
+[13.177642] (-) TimerEvent: {}
+[13.278313] (-) TimerEvent: {}
+[13.378816] (-) TimerEvent: {}
+[13.438120] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.479009] (-) TimerEvent: {}
+[13.579720] (-) TimerEvent: {}
+[13.680468] (-) TimerEvent: {}
+[13.781018] (-) TimerEvent: {}
+[13.881461] (-) TimerEvent: {}
+[13.981993] (-) TimerEvent: {}
+[14.082419] (-) TimerEvent: {}
+[14.182856] (-) TimerEvent: {}
+[14.283357] (-) TimerEvent: {}
+[14.384079] (-) TimerEvent: {}
+[14.484710] (-) TimerEvent: {}
+[14.585172] (-) TimerEvent: {}
+[14.685677] (-) TimerEvent: {}
+[14.786163] (-) TimerEvent: {}
+[14.886690] (-) TimerEvent: {}
+[14.961331] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.973593] (diff_drive_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.974319] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.974894] (diff_drive_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.986780] (-) TimerEvent: {}
+[15.066028] (diff_drive_robot) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[15.086983] (-) TimerEvent: {}
+[15.187646] (-) TimerEvent: {}
+[15.288304] (-) TimerEvent: {}
+[15.334877] (diff_drive_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[15.388485] (-) TimerEvent: {}
+[15.489035] (-) TimerEvent: {}
+[15.589679] (-) TimerEvent: {}
+[15.684052] (diff_drive_robot) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[15.689945] (-) TimerEvent: {}
+[15.790300] (-) TimerEvent: {}
+[15.890722] (-) TimerEvent: {}
+[15.991827] (-) TimerEvent: {}
+[16.092424] (-) TimerEvent: {}
+[16.192964] (-) TimerEvent: {}
+[16.293649] (-) TimerEvent: {}
+[16.394096] (-) TimerEvent: {}
+[16.494526] (-) TimerEvent: {}
+[16.595093] (-) TimerEvent: {}
+[16.607256] (diff_drive_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[16.646752] (diff_drive_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[16.695315] (-) TimerEvent: {}
+[16.726021] (diff_drive_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.794520] (diff_drive_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.795458] (-) TimerEvent: {}
+[16.895844] (-) TimerEvent: {}
+[16.996292] (-) TimerEvent: {}
+[17.024441] (diff_drive_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[17.039261] (diff_drive_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.096470] (-) TimerEvent: {}
+[17.197090] (-) TimerEvent: {}
+[17.297713] (-) TimerEvent: {}
+[17.315746] (diff_drive_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[17.397930] (-) TimerEvent: {}
+[17.498613] (-) TimerEvent: {}
+[17.599301] (-) TimerEvent: {}
+[17.699843] (-) TimerEvent: {}
+[17.800489] (-) TimerEvent: {}
+[17.901081] (-) TimerEvent: {}
+[18.001711] (-) TimerEvent: {}
+[18.102425] (-) TimerEvent: {}
+[18.203105] (-) TimerEvent: {}
+[18.303723] (-) TimerEvent: {}
+[18.382636] (diff_drive_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[18.403934] (-) TimerEvent: {}
+[18.504371] (-) TimerEvent: {}
+[18.604974] (-) TimerEvent: {}
+[18.705758] (-) TimerEvent: {}
+[18.806663] (-) TimerEvent: {}
+[18.907328] (-) TimerEvent: {}
+[19.007787] (-) TimerEvent: {}
+[19.059775] (diff_drive_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.107967] (-) TimerEvent: {}
+[19.209008] (-) TimerEvent: {}
+[19.309777] (-) TimerEvent: {}
+[19.411057] (-) TimerEvent: {}
+[19.511692] (-) TimerEvent: {}
+[19.612319] (-) TimerEvent: {}
+[19.713038] (-) TimerEvent: {}
+[19.813674] (-) TimerEvent: {}
+[19.914107] (-) TimerEvent: {}
+[20.014523] (-) TimerEvent: {}
+[20.114927] (-) TimerEvent: {}
+[20.134582] (diff_drive_robot) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[20.177427] (diff_drive_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[20.215116] (-) TimerEvent: {}
+[20.315589] (-) TimerEvent: {}
+[20.409877] (diff_drive_robot) StdoutLine: {'line': b'-- Configuring done (20.2s)\n'}
+[20.415840] (-) TimerEvent: {}
+[20.418811] (diff_drive_robot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[20.425748] (diff_drive_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/somsubhra/ros2_ws/build/diff_drive_robot\n'}
+[20.441440] (diff_drive_robot) CommandEnded: {'returncode': 0}
+[20.442401] (diff_drive_robot) JobProgress: {'identifier': 'diff_drive_robot', 'progress': 'build'}
+[20.443535] (diff_drive_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/somsubhra/ros2_ws/build/diff_drive_robot', '--', '-j16', '-l16'], 'cwd': '/home/somsubhra/ros2_ws/build/diff_drive_robot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'somsubhra', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/somsubhra', 'OLDPWD': '/home/somsubhra/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/somsubhra/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'somsubhra', 'NAME': 'DESKTOP-Q013D0A', 'WSL_INTEROP': '/run/WSL/9726_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/app/SOMSUBHRA/product/21c/dbhomeXE/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ffmpeg/bin:/mnt/c/ffmpeg/bin:/mnt/c/maven/bin:/Docker/host/bin:/mnt/c/Program Files/Tesseract-OCR/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ffmpeg/bin:/mnt/c/ffmpeg/bin:/mnt/c/maven/bin:/Docker/host/bin:/mnt/c/Program Files/Tesseract-OCR/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SOMSUBHRA/AppData/Roaming/npm:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Ollama:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh/:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/c/Users/SOMSUBHRA/Downloads/ffmpeg-8.0.1-essentials_build/ffmpeg-8.0.1-essentials_build/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/MetaCall:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Antigravity/bin:/snap/bin', 'WT_SESSION': '79e678c8-6927-4598-adf3-0a53feb57f0c', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/somsubhra/ros2_ws/build/diff_drive_robot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[20.505806] (diff_drive_robot) CommandEnded: {'returncode': 0}
+[20.507354] (diff_drive_robot) JobProgress: {'identifier': 'diff_drive_robot', 'progress': 'install'}
+[20.516260] (-) TimerEvent: {}
+[20.521812] (diff_drive_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/somsubhra/ros2_ws/build/diff_drive_robot'], 'cwd': '/home/somsubhra/ros2_ws/build/diff_drive_robot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'somsubhra', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/somsubhra', 'OLDPWD': '/home/somsubhra/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/somsubhra/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'somsubhra', 'NAME': 'DESKTOP-Q013D0A', 'WSL_INTEROP': '/run/WSL/9726_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/app/SOMSUBHRA/product/21c/dbhomeXE/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ffmpeg/bin:/mnt/c/ffmpeg/bin:/mnt/c/maven/bin:/Docker/host/bin:/mnt/c/Program Files/Tesseract-OCR/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ffmpeg/bin:/mnt/c/ffmpeg/bin:/mnt/c/maven/bin:/Docker/host/bin:/mnt/c/Program Files/Tesseract-OCR/:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/SOMSUBHRA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SOMSUBHRA/AppData/Roaming/npm:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Ollama:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/mongosh/:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/c/Users/SOMSUBHRA/Downloads/ffmpeg-8.0.1-essentials_build/ffmpeg-8.0.1-essentials_build/bin:/mnt/c/Users/SOMSUBHRA/AppData/Local/MetaCall:/mnt/c/Users/SOMSUBHRA/AppData/Local/Programs/Antigravity/bin:/snap/bin', 'WT_SESSION': '79e678c8-6927-4598-adf3-0a53feb57f0c', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/somsubhra/ros2_ws/build/diff_drive_robot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[20.534046] (diff_drive_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.534306] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/urdf\n'}
+[20.534790] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/urdf/robot.urdf.xacro\n'}
+[20.535258] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/launch\n'}
+[20.536091] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/worlds\n'}
+[20.537244] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/config\n'}
+[20.538638] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/ament_index/resource_index/package_run_dependencies/diff_drive_robot\n'}
+[20.539286] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/ament_index/resource_index/parent_prefix_path/diff_drive_robot\n'}
+[20.540027] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/environment/ament_prefix_path.sh\n'}
+[20.540579] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/environment/ament_prefix_path.dsv\n'}
+[20.540784] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/environment/path.sh\n'}
+[20.541237] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/environment/path.dsv\n'}
+[20.541700] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/local_setup.bash\n'}
+[20.542267] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/local_setup.sh\n'}
+[20.542748] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/local_setup.zsh\n'}
+[20.543238] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/local_setup.dsv\n'}
+[20.543784] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/package.dsv\n'}
+[20.544315] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/ament_index/resource_index/packages/diff_drive_robot\n'}
+[20.544447] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/cmake/diff_drive_robotConfig.cmake\n'}
+[20.544541] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/cmake/diff_drive_robotConfig-version.cmake\n'}
+[20.545215] (diff_drive_robot) StdoutLine: {'line': b'-- Installing: /home/somsubhra/ros2_ws/install/diff_drive_robot/share/diff_drive_robot/package.xml\n'}
+[20.548281] (diff_drive_robot) CommandEnded: {'returncode': 0}
+[20.598227] (diff_drive_robot) JobEnded: {'identifier': 'diff_drive_robot', 'rc': 0}
+[20.600623] (-) EventReactorShutdown: {}
